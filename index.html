@@ -1,17 +1,109 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
+    <!-- html config -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Merel-Motors | Vente et location de vehicule de luxe en corecteurs</title>
+    <meta name="author" content="Merel Motors"/>
+    <meta name="description" content="Merel Motors website"/>
+    <meta name="keywords" content="Merel Motors, voitures, voiture, car, cars, luxe, tipp-ex, 3D"/>
+    <!-- css files -->
+    <link rel="stylesheet" type="text/css" href="styles/style_header.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_footer.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_presentation.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_cards.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_services.css">
+    <!-- favicon & title -->
+    <link rel="shortcut icon" type="image/png" href="icons/transparent_logo.webp">
+    <title>Merel Motors</title>
 </head>
 <body>
-    <section class="first">
-        <h2 class="name">Merel-Motors</h2>
-        <h1 class="title-sentence">ÊTES-VOUS PRÊT ?</h1>
-        <h2 class="name">Merel-Motors</h2>
-        <h2 class="sentence">Vente et location de voitures de luxe en corecteurs</h2>
+    <div class="header">
+        <div class="big_title">MEREL MOTORS</div>
+        <ul class="menu">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="#presentation">Présentation</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+    <!-- title and image -->
+    <section class="above_header_title_section">
+        <div class="title">ÊTES-VOUS<br>PRÊT ?</div>
     </section>
+    <!-- presentation section -->
+    <section class="section" id="presentation">
+        <div class="title_section">À VOS MARQUES !</div>
+        <div class="presentation_content">
+            <div class="cars_illustration">
+                <img id="img_1" src="icons/img1.png" alt="Illustration 1" title="Illustration 1">
+                <img id="img_2" src="icons/img2.png" alt="Illustration 2" title="Illustration 2">
+            </div>
+            <div class="company_description">
+                <h3>Merel Motors</h3>
+                <p>
+                    À la fois utiles et luxueux, nos Tipp-Ex personnalisés en forme de voiture de marque représentent
+                    l'excellence et l'innovation de Merel Motors. Nous combinons design élégant et choix pour
+                    offrir une expérience unique à nos clients passionnés d'automobile.
+                    <br><br>
+                    Notre plan premium vous assure le top du haut de gamme en matière de figurine 3D, et vous assurera une touche
+                    d'élégance pour vos occasions spéciales.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- services section -->
+    <section class="section" id="services">
+        <div class="title_section isolated">LES FAITS RAPIDES<br>NOS SERVICES</div>
+        <div class="content_services">
+            <div class="cards_box">
+                <div class="card">
+                    <h3>PLAN CLASSIQUE 🔰</h3>
+                    <p>
+                        Alliez simplicité, utilité et style en découvrant nos Tipp-Ex customisés en forme de luxueuses voitures de sport.
+                        Personnalisez votre commande en choisissant le modèle, la couleur et le thème, ou même en customisant vos propres
+                        Tipp-Ex en les confiant à notre équipe d'ingénieurs !
+                    </p>
+                </div>
+                <div class="card">
+                    <h3>PLAN PREMIUM 💎</h3>
+                    <p>Passez à l'action et achetez le véhicule de vos rêves parmi nos modèles exclusifs, en plan classique ou premium !</p>
+                </div>
+            </div>
+            <a href="https://discord.com/channels/1329853879277584384/1329857285987766363" class="card_button">📦️ PASSEZ COMMANDE DÈS MAINTENANT !</a>
+        </div>
+    </section>
+    <!-- contact info section -->
+    <section class="section" id="contact">
+        <div class="title_section">VOUS AVEZ DES QUESTIONS ?</div>
+        <div class="cards_box">
+            <div class="card">
+                <h3>📢 Rejoingnez le discord!</h3>
+                <p>Venez discuter, proposer de nouveaux modèles ou passer commande dans notre communauté</p>
+                <a href="https://discord.gg/RtJAUvdvGU" class="card_button">REJOINDRE DISCORD</a>
+            </div>
+            <div class="card">
+                <h3>📧 Contactez-nous par email...</h3>
+                <p>Un problème avec votre commande, ou vous n'avez pas discord ? Passez par cette adresse!</p>
+                <a href="mailto:contact@merelmotors.fr" class="card_button">contact@merelmotors.fr</a>
+            </div>
+            <div class="card">
+                <h3>📱Ou appelez-nous directement!</h3>
+                <p>Si c'est plus pratique pour vous, vous pouvez toujours nous appeller au numéro suivant:</p>
+                <a href="tel:+33601010101" class="card_button">+33601010101</a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer_left">
+            <p>&copy; 2025 - Merel Motors</p>
+        </div>
+        <div class="footer_right">
+            <a href="https://github.com/merel-motors/merel-motors.github.io" target="_blank">
+                <p>Voir sur GitHub</p>
+                <img src="icons/github.png" onmousedown="return false" onmousemove="return false" alt="GitHub" title="GitHub">
+            </a>
+        </div>
+    </footer>
 </body>
 </html>

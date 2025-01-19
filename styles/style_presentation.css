@@ -1,0 +1,50 @@
+#presentation {
+    margin-bottom: 8rem;
+}
+
+.presentation_content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10%;
+}
+
+.cars_illustration {
+    width: 45%;
+    position: relative;
+}
+
+.cars_illustration img {
+    width: 45%;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+.cars_illustration img:hover {
+    transform: scale(1.05);
+}
+
+#img_1 {
+    position: relative;
+}
+
+#img_2 {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+}
+
+.company_description {
+    color: #2b2b2b;
+    width: 45%;
+}
+
+.company_description h3 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.company_description p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+}

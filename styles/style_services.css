@@ -1,0 +1,16 @@
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_services {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content_services .card_button {
+    text-align: center;
+}
