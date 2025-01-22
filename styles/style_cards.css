@@ -7,12 +7,6 @@
     margin-left: 10%;
 }
 
-.isolated {
-    isolation: isolate;
-    align-self: flex-start;
-    margin-left: 10%;
-}
-
 .cards_box {
     display: flex;
     justify-content: space-around;
@@ -30,6 +24,7 @@
     padding: 2rem;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
+    margin: 5px;
 }
 
 .card:hover {
@@ -53,12 +48,39 @@
     background-color: #2b2b2b;
     color: white;
     text-decoration: none;
+    text-align: center;
     font-weight: bold;
     border-radius: 5px;
     transition: background-color 0.3s ease;
     margin-top: 2rem;
 }
 
-.card_button:hover {
-    background-color: #444;
+.card_button:hover {background-color: #444;}
+
+/* ------------------------ responsive ------------------------ */
+@media screen and (max-width: 1450px) {
+    #services .cards_box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        box-shadow: none;
+        width: 80%;
+    }
+
+    .card:hover {
+        transform: none;
+    }
+}
+
+@media screen and (max-width: 1600px) {
+    #contact .cards_box {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .title_section {margin-left: 5%;}
 }

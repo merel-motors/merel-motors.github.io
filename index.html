@@ -12,21 +12,26 @@
     <link rel="stylesheet" type="text/css" href="styles/style_footer.css">
     <link rel="stylesheet" type="text/css" href="styles/style_presentation.css">
     <link rel="stylesheet" type="text/css" href="styles/style_cards.css">
-    <link rel="stylesheet" type="text/css" href="styles/style_services.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_menu.css">
     <!-- favicon & title -->
     <link rel="shortcut icon" type="image/png" href="icons/transparent_logo.webp">
     <title>Merel Motors</title>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="big_title">MEREL MOTORS</div>
-        <ul class="menu">
+        <ul id="menu">
             <li><a href="index.html">Accueil</a></li>
             <li><a href="#presentation">Présentation</a></li>
             <li><a href="#services">Services</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-    </div>
+        <div id="burger_menu" title="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </header>
     <!-- title and image -->
     <section class="above_header_title_section">
         <div class="title">ÊTES-VOUS<br>PRÊT ?</div>
@@ -46,35 +51,36 @@
                     l'excellence et l'innovation de Merel Motors. Nous combinons design élégant et choix pour
                     offrir une expérience unique à nos clients passionnés d'automobile.
                     <br><br>
-                    Notre plan premium vous assure le top du haut de gamme en matière de figurine 3D, et vous assurera une touche
-                    d'élégance pour vos occasions spéciales.
+                    Notre plan premium vous assure le top du haut de gamme en matière de figurine 3D, et vous procurera une touche
+                    d'élégance supplémentaire pour vos occasions spéciales.
                 </p>
             </div>
         </div>
     </section>
     <!-- services section -->
     <section class="section" id="services">
-        <div class="title_section isolated">LES FAITS RAPIDES<br>NOS SERVICES</div>
-        <div class="content_services">
-            <div class="cards_box">
-                <div class="card">
-                    <h3>PLAN CLASSIQUE 🔰</h3>
-                    <p>
-                        Alliez simplicité, utilité et style en découvrant nos Tipp-Ex customisés en forme de luxueuses voitures de sport.
-                        Personnalisez votre commande en choisissant le modèle, la couleur et le thème, ou même en customisant vos propres
-                        Tipp-Ex en les confiant à notre équipe d'ingénieurs !
-                    </p>
-                </div>
-                <div class="card">
-                    <h3>PLAN PREMIUM 💎</h3>
-                    <p>
-                        Passez à l'action et achetez le véhicule de vos rêves parmi nos modèles exclusifs imprimés en 3D,
-                        personnalisables pour une dizaine de modèles de voitures de luxes de quelque cm, qui vous assurera
-                        la classe lors de vos rendez-vous comme porte-clé 🔥
-                    </p>
-                </div>
+        <div class="title_section">LES FAITS RAPIDES<br>NOS SERVICES</div>
+        <div class="cards_box">
+            <div class="card">
+                <h3>PLAN CLASSIQUE 🔰</h3>
+                <p>
+                    Alliez simplicité, utilité et style en découvrant nos Tipp-Ex customisés en forme de luxueuses voitures de sport.
+                    Personnalisez votre commande en choisissant le modèle, la couleur et le thème, ou même en customisant vos propres
+                    Tipp-Ex en les confiant à notre équipe d'ingénieurs !
+                </p>
+                <h2>À partir de 1€</h2>
+                <a href="https://discord.com/channels/1329853879277584384/1329857285987766363" class="card_button">📦️ DÉCOUVRIR L'OFFRE</a>
             </div>
-            <a href="https://discord.com/channels/1329853879277584384/1329857285987766363" class="card_button">📦️ PASSEZ COMMANDE DÈS MAINTENANT !</a>
+            <div class="card">
+                <h3>PLAN PREMIUM 💎</h3>
+                <p>
+                    Passez à l'action et achetez le véhicule de vos rêves parmi nos modèles exclusifs imprimés en 3D
+                    personnalisables pour une dizaine de modèles de voitures de luxes de quelque cm, qui vous donnera
+                    la classe lors de vos rendez-vous comme porte-clé.
+                </p>
+                <h2>À partir de 5€</h2>
+                <a href="https://discord.com/channels/1329853879277584384/1329857285987766363" class="card_button">📦️ PASSEZ COMMANDE</a>
+            </div>
         </div>
     </section>
     <!-- contact info section -->
@@ -109,5 +115,8 @@
             </a>
         </div>
     </footer>
+    <!-- load javascript -->
+    <script src="eventClickBurgerMenu.js"></script>
+    <script>0</script>
 </body>
 </html>

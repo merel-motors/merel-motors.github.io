@@ -24,10 +24,7 @@
     transform: scale(1.05);
 }
 
-#img_1 {
-    position: relative;
-}
-
+#img_1 {position: relative;}
 #img_2 {
     position: absolute;
     top: 15%;
@@ -47,4 +44,15 @@
 .company_description p {
     font-size: 1.1rem;
     line-height: 1.6;
+}
+
+/* ------------------------ responsive ------------------------ */
+@media screen and (max-width: 768px) {
+    .cars_illustration {
+        display: none;
+    }
+
+    .company_description {
+        width: 100%;
+    }
 }
