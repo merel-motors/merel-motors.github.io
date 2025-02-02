@@ -43,6 +43,7 @@
 }
 
 .card_button {
+    cursor: pointer;
     display: inline-block;
     padding: 1rem 2rem;
     background-color: #2b2b2b;
